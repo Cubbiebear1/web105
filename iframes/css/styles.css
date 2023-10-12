@@ -9,6 +9,7 @@ iframe {
   height: 500px;
   margin: auto;
   display: block;
+  border: 3px solid rgb(13, 13, 14);
 }
 
 h1 {
