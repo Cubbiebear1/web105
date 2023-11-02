@@ -1,0 +1,73 @@
+head {
+  font-family: "Alexandria", sans-serif;
+}
+
+header {
+  background-color: #190000;
+  color: #ff8a5f;
+  text-align: center;
+  padding: 20px;
+  border-color: #ff8a5f;
+  border-width: 5px;
+  border-radius: 20px;
+  border: 2px solid #d23523;
+  border-style: dashed;
+}
+
+body {
+  font-family: "Alexandria", sans-serif;
+  text-align: center;
+  background-color: #190000;
+}
+
+button {
+  background-color: #ff8a5f;
+  color: #190000;
+  border-color: #ff8a5f;
+  border-width: 5px;
+  border-radius: 20px;
+  border: 2px solid #d23523;
+  border-style: dashed;
+  font-family: "Alexandria", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+button :hover {
+  background-color: #d23523;
+  color: #ff8a5f;
+}
+
+h1 {
+  color: #ff8a5f;
+}
+
+h2 {
+  color: #ff8a5f;
+}
+
+img {
+  width: 500px;
+  padding: 10px;
+  border-style: dotted;
+  float: center;
+}
+
+.container {
+  float: right;
+  border-color: #ff8a5f;
+  border-style: dashed;
+}
+
+p,
+figure,
+figcaption {
+  color: #ff8a5f;
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+}
+
+footer,
+aside {
+  color: #ff8a5f;
+}

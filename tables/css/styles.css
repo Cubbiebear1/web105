@@ -31,6 +31,9 @@ nav {
 
 }
 
+tr :hover{
+   background-color: coral; 
+}
 nav a {
     font-size: larger;
     color: cornsilk;
