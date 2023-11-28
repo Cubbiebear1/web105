@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Best custom cakes, Delicious cake flavors,Cake delivery near me, Birthday cake designs, Wedding cake ideas,Cake bakery online, Gourmet cookies,Freshly baked cookies, Online cookie shop, Cookie gift baskets, Chocolate chip cookies, Gluten-free cookies, Artisan bread,Freshly baked bread, Sourdough bread, Whole grain bread, Local bakery bread, Crusty bread">
+
+    <title>Sweet Delights Bakery</title>
+
+    <link
+      rel="shortcut icon"
+      href="../favicon.ico-generator/favicon.ico"
+      type="image/x-icon"/>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../project-two/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header style="color: #d9cab3">Welcome to Sweet Delights Bakery</header>
+
+    <nav style="color:#D9CAB3">
+      <a href="#index.html">Introduction</a>
+      <a href="sub-pages/index2.html">Cakes</a>
+      <a href="sub-pages/index3.html">Cookies</a>
+      <a href="sub-pages/index4.html">Breads</a>
+      <a href="sub-pages/index5.html">And Much More.....</a>
+    </nav>
+
+      <h1>Sweet Delights Bakery...Who Are We?</h1>
+    
+    <main>
+        <div class="row">
+          <div class="column">
+            <img src="images/baker-4840960_640.jpg" data-hover="images/cranberry-rhu-pie-881175_640.jpg" alt="Photo of a Baker">
+            <figcaption>Hand Crafted Delights,</figcaption>
+          </div>
+            <div class="column">
+            <img src="images/blueberry-pie-802188_640.jpg"  data-hover="images/cheesecake-1971556_640.jpg"="Photo of Blueberry Pie">
+            <figcaption>From Sweet,</figcaption>
+          </div>
+            <div class="column">
+            <img src="images/bread-1281053_640.jpg" data-hover="images/macarons-2548810_640.jpg" alt="Photo of Fresh Baked Bread">
+            <figcaption>To Savory,</figcaption>
+          </div>
+            <div class="column">
+            <img src="images/wedding-cake-639516_640.jpg" data-hover="images/cupcakes-2285209_640.jpg" alt="Photo of a Wedding Cake">
+            <figcaption>And Much More......</figcaption></div>
+            </div>
+            <h6>All Photos Courtesy of Pixabay.com</h6>
+        </div>
+        <br>
+
+        <section class="text-containers">
+            <div class="container">
+                <h2>From Our Hearth To Yours.......</h2>
+                <p>Welcome to Sweet Delights Bakery. We are a small family-owned business that has been in operation for over 50 years. We specialize in hand-crafted baked goods made from scratch, such as cakes, breads, sweet rolls, cookies, and many other sweet delights to tickle your tastebuds. We are located in the heart of downtown Crystal Lake. We are only a few minutes walk from the train station. During our many years of service we continue to use only the finest ingredients. Our recipes have been passed down from generation to generation in our family and are tried and true. Below is just a small list of some of our best selling and most famous delights enjoyed by our returning patrons.</p> 
+                <ul>
+                  <li>Cinful Cinnamon Rolls</li>
+                  <li>Perfectly Pumpkin Pie*</li>
+                  <li data-bs-toggle="popover" data-placement="right" title="Gluten-Free Options Available">Magnificent Molasses Cookies*</li>
+                  <li>Not-So-Sour Sourdough Bread</li>
+                  <li data-bs-toggle="popover" data-placement="right" title="Gluten-Free Options Available">Red Velvet Cake*</li>
+                  <li data-bs-toggle="popover" data-placement="right" title="Gluten-Free Options Available">Chock-ful Chocolate Chip Cookies*</li>
+                </ul>
+                <p> Our goal is to provide you with the best-tasting baked goods possible at an affordable price. We purchase many of our ingredients from local farms in an effort to reduce our carbon footprint and continually participate in local commerce. We  also offer a wide variety of Gluten-Free delights. Unable to stop in? We have multiple delivery methods available for Crystal Lake and our surrounding McHenry County communities. By shopping with us, you allow us to give back to the community through weekly donations to the local food pantry. Our community is our bread and butter and we want to return the flavor.</p>
+                
+            </div>
+            <section class="text-containers">
+              <div class="container">
+                <h2>We hope you visit us soon so we may impress you with more than just photos! A wonderful world of taste and smell awaits!</h2>
+              </section>
+            </div>
+    </main>
+  </body>
+<div class="wrapper">
+  </div>
+  <script>
+   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl, {
+    template: '<div class="popover" role="tooltip"><div class="popover-arrow"></div><h3 class="popover-header"></h3><div class="popover-body" style="background-color: #yourColor;"></div></div>'
+  })
+})
+$(document).ready(function(){
+  $("img").hover(function(){
+    var hoverImage = $(this).attr("data-hover");
+    $(this).attr("src", hoverImage);
+  }, function(){
+    var originalImage = $(this).attr("data-original");
+    $(this).attr("src", originalImage);
+  });
+});
+</script>
+</body>        
+  <footer> <p>* Gluten-Free Options Available</p>
+</p> Please Call For Appointments, Pricing, Delivery Options, Questions or Concerns: (815)555-5555 or  email rjohnson76@mchenry.edu
+      <a href="mailto:rjohnson76@mchenry.edu" alt="rjohnson76@mchenry.edu"></a>
+    </p>
+    <br />
+    <aside>&copy; 2023 Rebecca Johnson</aside>
+    <a href="#Top" style="color: #D9CAB3">Back to Top</a>
+  </footer>
+</html>
